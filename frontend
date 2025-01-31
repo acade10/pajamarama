@@ -1,1 +1,3 @@
-
+print "NOCTISYNTH"
+sleep = ("how long did you sleep last night?")
+print sleep
