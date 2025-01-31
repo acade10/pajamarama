@@ -1,3 +1,7 @@
 print "NOCTISYNTH"
 sleep = ("how long did you sleep last night?")
 print sleep
+cd frontend
+npx create-react-app my-app
+cd my-app
+npm start
