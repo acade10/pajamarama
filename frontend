@@ -1,7 +1,29 @@
-print "NOCTISYNTH"
-sleep = ("how long did you sleep last night?")
-print sleep
-cd frontend
-npx create-react-app my-app
-cd my-app
-npm start
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noctisynth</title>
+    <style>
+        body {
+            background-color: black;
+            margin: 0; /* Remove default body margins */
+            display: flex;
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            min-height: 100vh; /* Ensure full viewport height */
+        }
+
+        h1 {
+            color: white;
+            font-size: 4em; /* Adjust size as needed */
+            font-family: sans-serif; /* Choose a font */
+            /* Add any other styling you want for the text */
+        }
+    </style>
+</head>
+<body>
+    <h1>Noctisynth</h1>
+</body>
+</html>
+    
